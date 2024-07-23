@@ -11,5 +11,7 @@ public class ImmutableDateMain {
         System.out.println(monthChangedDate);
         ImmutableDate dayChangedDate = immutableDate.withDay(7);
         System.out.println(dayChangedDate);
+
+        char[] chars = {'1'};
     }
 }
