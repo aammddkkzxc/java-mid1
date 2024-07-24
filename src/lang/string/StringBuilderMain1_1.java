@@ -1,4 +1,4 @@
-package lang.immutable.string;
+package lang.string;
 
 public class StringBuilderMain1_1 {
     public static void main(String[] args) {

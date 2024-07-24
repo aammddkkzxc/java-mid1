@@ -1,4 +1,4 @@
-package lang.immutable.string.chaining;
+package lang.string.chaining;
 
 public class MethodChainingMain3 {
     public static void main(String[] args) {

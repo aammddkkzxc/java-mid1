@@ -1,4 +1,4 @@
-package lang.immutable.string.chaining;
+package lang.string.chaining;
 
 public class ValueAdder {
     private int value;

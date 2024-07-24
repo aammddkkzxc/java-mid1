@@ -1,4 +1,4 @@
-package lang.immutable.string;
+package lang.string;
 
 public class StringCompareMain {
     public static void main(String[] args) {
