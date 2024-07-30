@@ -9,11 +9,12 @@ public class Library {
     }
 
     public void addBook(String title, String author) {
-        if (count < books.length) {
-            books[count++] = new Book(title, author);
-        } else {
+        if (count >= books.length) {
             System.out.println("도서관 저장 공간이 부족합니다.");
+            return;
         }
+
+        books[count++] = new Book(title, author);
     }
 
     public void showBooks() {
